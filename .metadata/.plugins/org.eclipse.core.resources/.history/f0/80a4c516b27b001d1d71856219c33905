@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Listing {
+	public static void main(String[] args) {
+		List fruits = new ArrayList();
+		fruits.add("apple");
+		fruits.add("banana");
+		fruits.add("pear");
+		fruits.add("cherry");
+		System.out.println(fruits);
+		
+		fruits.add(1, "grapefruit");
+		fruits.add(1, "grapefruit");
+		fruits.add(1, "grapefruit");
+		
+	}
+}

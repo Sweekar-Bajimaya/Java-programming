@@ -1,0 +1,13 @@
+import java.awt.List;
+
+public class Listing {
+
+	public static void main(String[] args) {
+		List fruits = new ArrayList();
+		fruits.add("apple");
+		fruits.add("banana");
+		fruits.add("pear");
+		fruits.add("cherry");
+		System.out.println(fruits);
+	}
+}

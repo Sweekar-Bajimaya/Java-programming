@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Listing {
+	public static void main(String[] args) {
+		List fruits = new ArrayList();
+		fruits.add("apple");
+		fruits.add("banana");
+		fruits.add("pear");
+		fruits.add("cherry");
+			
+		fruits.add(0, "grapefruit");
+		fruits.add(2, "Date");
+		fruits.add("grapefruit");
+		System.out.print(0, fruits);
+		System.out.print(2, fruits);
+		System.out.print(3, fruits);
+		System.out.print(4, fruits);
+		System.out.print(5, fruits);		
+	}
+}
